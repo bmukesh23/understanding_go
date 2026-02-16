@@ -16,4 +16,9 @@ func main() {
 	// shorthand syntax
 	name2 := "mukesh"
 	fmt.Println(name2)
+
+	// variable declaration and value assignment can be done seperately in "var" not in ":="
+	var price float32
+	price = 50.5
+	fmt.Println(price)
 }
