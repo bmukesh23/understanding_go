@@ -13,7 +13,9 @@ import "fmt"
 // }
 
 // by reference
+// num *int means num is a pointer to an int.
 func changeNum(num *int) {
+	// *num means value at pointer
 	*num = 5
 	fmt.Println("In changeNum", *num)
 }
